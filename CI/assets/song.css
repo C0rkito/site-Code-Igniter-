@@ -1,0 +1,38 @@
+div :hover{
+	color:red;
+}
+
+.songs-list{
+	margin-left:20vw ;
+}
+
+
+.filter-song{
+	top:25vh;
+	height: 60vh;
+	width: 20vw;
+	background-color:  #96bde1;
+	backdrop-filter: blur(10px);
+	left: 5vw;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: -6px 6px 10px black;
+}
+
+.infos :hover{
+	display: none;
+	background-color: red;
+	width: 10px;
+	height: 10px;
+}
+.infos :hover{
+	display: block;
+}
+
+div:hover + .infos{
+	display: block;
+}
